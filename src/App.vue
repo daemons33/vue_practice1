@@ -1,21 +1,27 @@
 <template>
-  <h1>HOLA MUNDOOOO!!!</h1>
+<Contador></Contador>
+<ListaDeTareas></ListaDeTareas>
+  <!-- <h1>HOLA MUNDOOOO!!!</h1>
   <p>{{ contador }}</p>
   <button @click="incrementar">incrementar</button>
-  <button @click="decrementar">decrementar</button>
+  <button @click="decrementar">decrementar</button> -->
 </template>
 
 <script setup>
-  import {ref} from 'vue';
+  import Contador from './components/Contador.vue';
+  import ListaDeTareas from './components/ListaDeTareas.vue';
+  /* import {ref} from 'vue';
   const contador = ref(0);
   const incrementar = () =>{
     contador.value ++;
   }
   const decrementar = ()=>{
-    contador.value --
-  }
+    contador.value --;
+  } */
 </script>
 
 <style scoped>
-
+/* p {
+  color:red;
+}; */
 </style>
