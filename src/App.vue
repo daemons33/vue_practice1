@@ -8,8 +8,12 @@
 </template>
 
 <script setup>
+  import MainView from './views/MainView.vue';
+
   import Contador from './components/Contador.vue';
   import ListaDeTareas from './components/ListaDeTareas.vue';
+  
+  import Sidebar from './components/Sidebar.vue';
   /* import {ref} from 'vue';
   const contador = ref(0);
   const incrementar = () =>{
