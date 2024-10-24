@@ -1,8 +1,8 @@
 <template>
     <div class="sidebar">
         <h2>Barra Lateral</h2>
-        <router-link to="/contador">Contador</router-link>
-        <router-link to="/lista-de-tareas">Lista de Tareas</router-link>
+        <li><router-link to="/contador">Contador</router-link></li>
+        <li><router-link to="/lista-de-tareas">Lista de Tareas</router-link></li>
     </div>
 </template>
 <script setup></script>

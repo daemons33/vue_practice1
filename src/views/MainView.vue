@@ -1,14 +1,17 @@
 <template>
     <div class="container">
+        <sidebar> </sidebar>
         <div class="content">
-            <router-link></router-link>
+            <router-view></router-view>
         </div>
     </div>
     
 </template>
-<script setup>
 
+<script setup>
+    import Sidebar from '../components/Sidebar.vue';
 </script>
+
 <style scoped>
     .container{
         display:  flex;

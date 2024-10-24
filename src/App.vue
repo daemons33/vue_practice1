@@ -1,7 +1,8 @@
 <template>
-<Contador></Contador>
+  <MainView></MainView>
+<!-- <Contador></Contador>
 <ListaDeTareas></ListaDeTareas>
-  <!-- <h1>HOLA MUNDOOOO!!!</h1>
+ -->  <!-- <h1>HOLA MUNDOOOO!!!</h1>
   <p>{{ contador }}</p>
   <button @click="incrementar">incrementar</button>
   <button @click="decrementar">decrementar</button> -->
@@ -10,8 +11,8 @@
 <script setup>
   import MainView from './views/MainView.vue';
 
-  import Contador from './components/Contador.vue';
-  import ListaDeTareas from './components/ListaDeTareas.vue';
+  import Contador from './modules/contador/Contador.vue';
+  import ListaDeTareas from './modules/LlistaDeTareas/ListaDeTareas.vue';
   
   import Sidebar from './components/Sidebar.vue';
   /* import {ref} from 'vue';
