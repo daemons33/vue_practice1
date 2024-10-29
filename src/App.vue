@@ -12,7 +12,7 @@
   import MainView from './views/MainView.vue';
 
   import Contador from './modules/contador/Contador.vue';
-  import ListaDeTareas from './modules/LlistaDeTareas/ListaDeTareas.vue';
+  import ListaDeTareas from './modules/ListaDeTareas/ListaDeTareas.vue';
   
   import Sidebar from './components/Sidebar.vue';
   /* import {ref} from 'vue';
