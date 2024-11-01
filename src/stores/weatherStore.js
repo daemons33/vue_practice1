@@ -7,4 +7,4 @@ export const useWeatherStore = define('weather', ()=>{
         temperatura.value = temp;
     }
     return {temperatura, setTemperatura};
-})
+});j
